@@ -1,0 +1,71 @@
+.top-title {
+	color: Red;
+}
+
+h1 {
+	color: Black;
+}
+
+header {
+	text-align: center;
+}
+
+#background-image {
+
+}
+
+h3.post-title {
+	color: Green	;
+	text-transform: capitalize;
+}
+
+/*.image {
+	background-image: url("http://cdn3.livelongandtravel.com:8080/hawaii.jpg");
+}*/
+
+
+
+
+
+.container {  
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgba(192,192,192,0.3);
+}
+
+
+
+
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+/*
+  	<header>
+  		<h3 class="post-title">At Beach In Winter</h3>
+  		<figure>
+  			<a href="#" target="_blank"></a>
+  			<img src="http://cdn3.livelongandtravel.com:8080/hawaii.jpg" alt="a sunny beach" width="500" height="400"/>
+  			<article>
+  				<p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  				<footer>
+  					<p><i>0 Comments</i></p>
+  				</footer>
+  			</article>
+  		</figure>
+  	</header>
+  </main> */
