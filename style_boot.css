@@ -31,10 +31,14 @@ h2 {
 }
 
 .card-img {
-  
+  width: 100%;
+  height: 349px;
+  opacity: .6;  
 }
 
 .card-img-overlay {
+  padding-top: 150px;
+  padding-right: 200px;
 }
 
 button {
@@ -43,6 +47,15 @@ button {
 
 .card-title {
   text-align: start;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+#button-container {
+  text-align: center;
 }
 
 

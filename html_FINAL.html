@@ -16,7 +16,10 @@
 
 <body>
 <!-- Header -->
-	<header id="header" class="container-fluid">
+
+<main class="container">
+
+	<header id="header">
 		<div class="row">
 			<div class="col">
 				<p class="pre-title">[Making Your Life Easier]</p>
@@ -30,73 +33,163 @@
 		</div>	
 	</header>
 
+<!-- Modal -->
+<aside class="row">
+  <div class="col-lg-12">
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#exampleModal">
+  CREATE POST
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Create Post</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+            <form action="" method="POST">
+            <label>Title:</label>
+            <br>
+            <input type="" name="">
+            <br>
+            <label>Description:</label>
+            <br>
+            <input type="" name="">
+            <br>
+            <label>Category:</label>
+            <br>
+            <input list="category">
+            <datalist id="category">
+              <option value="All" tabindex="1"></option>
+              <option value="Travel" tabindex="2"></option>
+              <option value="Lifestyle" tabindex="3"></option>
+              <option value="Business" tabindex="4"></option>
+              <option value="Food" tabindex="5"></option>
+              <option value="Work" tabindex="6"></option>
+            </datalist>
+            <br>
+            <label>URL of the image:</label>
+            <br>
+            <input type="url" name="image">
+            <br>
+            </form>
+      </div> <!-- modal body -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div> <!-- column -->
+</aside> <!-- row -->
+
+
+
 
 <!-- Navigation -->
-<nav class="container">
+  <div class="row">
+    <div class="col-md-12 col-sm-2" id="button-container">
+  <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-light ">All</button>
+  <button type="button" class="btn btn-light ">Travel</button>
+  <button type="button" class="btn btn-light ">Lifestyle</button>
+  <button type="button" class="btn btn-light ">Business</button>
+  <button type="button" class="btn btn-light ">Food</button>
+  <button type="button" class="btn btn-light ">Work</button>
+  </div>
+</div>
+
+<!-- <nav class="container">
     <div class="row">
       
       <div class="col-xl-2 col-sm-6">
       <a href="#">
-      <button>All</button>
+      <button type="button" class="btn btn-light ">All</button>
       </div>
       
       <div class="col-xl-2 col-sm-6">
       <a href="#">
-      <button>Travel</button>  
+      <button type="button" class="btn btn-light ">Travel</button>  
       </div>
 
       <div class="col-xl-2 col-sm-6">
       <a href="#">
-      <button>Lifestyle</button>
+      <button type="button" class="btn btn-light ">Lifestyle</button>
       </div>
 
       <div class="col-xl-2 col-sm-6">
       <a href="#">
-      <button>Business</button>
+      <button type="button" class="btn btn-light ">Business</button>
       </div>
 
       <div class="col-xl-2 col-sm-6">
       <a href="#">
-      <button>Food</button>
+      <button type="button" class="btn btn-light ">Food</button>
       </div>
 
       <div class="col-xl-2 col-sm-6">
       <a href="#">
-      <button>Work</button>
+      <button type="button" class="btn btn-light ">Work</button>
       </div>
 
     </div>  
-</nav>
+</nav> -->
 
 
 <!-- Page Content -->
-<main class="container">
+
       <article class="row">
-<div class="card bg-dark text-white col-lg-6">
+<div class="card bg-dark text-white col-lg-6 nopadding">
   <img class="card-img" src="tokyo.jpg" alt="Card image">
   <div class="card-img-overlay">
-    <h5 class="card-title">Tokyo At Night</h5>
+    <h3 class="card-title">Tokyo At Night</h3>
     <p class="card-comment">3 Comments</p>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     <p class="card-type">LIFESTYLE</p>
   </div>
 </div>
 
-<div class="card bg-dark text-white col-lg-6">
+<div class="card bg-dark text-white col-lg-6 nopadding">
   <img class="card-img" src="mongolia.jpg" alt="Card image" padding="0">
   <div class="card-img-overlay">
-    <h5 class="card-title">Mongolian Huts</h5>
+    <h3 class="card-title">Mongolian Huts</h3>
     <p class="card-comment">3 Comments</p>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     <p class="card-type">TRAVEL</p>
   </div>
 </div>
-      </article>
-      
-</main>
+      </article> <!-- row -->
+   
 
+         <article class="row">
+<div class="card bg-dark text-white col-lg-6 nopadding">
+  <img class="card-img" src="beach.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h3 class="card-title">Beaches of Mexico</h3>
+    <p class="card-comment">25 Comments</p>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-type">LIFESTYLE</p>
+  </div>
+</div>
 
-<!-- Form -->
+<div class="card bg-dark text-white col-lg-6 nopadding">
+  <img class="card-img" src="brazil.jpg" alt="Card image" padding="0">
+  <div class="card-img-overlay">
+    <h3 class="card-title">Brazil Paradise</h3>
+    <p class="card-comment">0 Comments</p>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-type">TRAVEL</p>
+  </div>
+</div>
+      </article> <!-- row -->   
+
+<!-- Form
   <aside>
       <form action="" method="POST">
             <h3><strong>Create Post:</strong></h3>
@@ -125,8 +218,14 @@
             <button type="submit">Cancel</button>
         </form>
   </aside>
+-->
 
+</main>
 
-
+<!-- Javascript Bootstrap --> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
